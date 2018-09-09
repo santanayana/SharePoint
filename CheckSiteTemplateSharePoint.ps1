@@ -1,0 +1,1 @@
+Get-SPsite "http://partners.statoilfuelretail.com/sites/BCS" | get-spweb -limit all | select Title, URL, WebTemplate, WebTemplateId

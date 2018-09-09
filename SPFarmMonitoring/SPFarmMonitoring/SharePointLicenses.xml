@@ -1,0 +1,29 @@
+<SPSD Version="4.1.2.9839">
+  <SharePoint>
+    <!--
+Get SharePoint products Guid by running SharePoint PowerShell console and call "(Get-SPFarm).Products" (works >=SP2010)
+You can also lookup the license name and type at http://msdn.microsoft.com/en-us/library/ff721969.aspx 
+-->
+    <Licenses>
+      <License Guid="BEED1F75-C398-4447-AEF1-E66E1F0DF91E" Type="Foundation"  Name="SharePoint Foundation 2010" />
+      <License Guid="1328E89E-7EC8-4F7E-809E-7E945796E511" Type="Search"      Name="Search Server Express 2010" />
+      <License Guid="B2C0B444-3914-4ACB-A0B8-7CF50A8F7AA0" Type="Standard"    Name="SharePoint Server 2010 Standard Trial" />
+      <License Guid="3FDFBCC8-B3E4-4482-91FA-122C6432805C" Type="Standard"    Name="SharePoint Server 2010 Standard" />
+      <License Guid="88BED06D-8C6B-4E62-AB01-546D6005FE97" Type="Enterprise"  Name="SharePoint Server 2010 Enterprise Trial" />
+      <License Guid="D5595F62-449B-4061-B0B2-0CBAD410BB51" Type="Enterprise"  Name="SharePoint Server 2010 Enterprise" />
+      <License Guid="BC4C1C97-9013-4033-A0DD-9DC9E6D6C887" Type="Search"      Name="Search Server 2010 Trial" />
+      <License Guid="08460AA2-A176-442C-BDCA-26928704D80B" Type="Search"      Name="Search Server 2010" />
+      <License Guid="84902853-59F6-4B20-BC7C-DE4F419FEFAD" Type="Project"     Name="Project Server 2010 Trial" />
+      <License Guid="ED21638F-97FF-4A65-AD9B-6889B93065E2" Type="Project"     Name="Project Server 2010" />
+      <License Guid="926E4E17-087B-47D1-8BD7-91A394BC6196" Type="Office"      Name="Office Web Companions 2010" />
+      <License Guid="CCD2BE5B-DCB6-4FBE-8087-3E5C82244473" Type="Foundation"  Name="SharePoint Foundation 2013 (Preview)" />
+      <License Guid="52D457F6-AE45-4221-9BC5-1912A8861C00" Type="Enterprise"  Name="SharePoint Server 2013 Enterprise (Preview)"  />
+      <License Guid="35466B1A-B17B-4DFB-A703-F74E2A1F5F5E" Type="Project"     Name="Project Server 2013" />
+      <License Guid="BC7BAF08-4D97-462C-8411-341052402E71" Type="Project"     Name="Project Server 2013 Preview" />
+      <License Guid="9FF54EBC-8C12-47D7-854F-3865D4BE8118" Type="Foundation"  Name="SharePoint Foundation 2013" />
+      <License Guid="C5D855EE-F32B-4A1C-97A8-F0A28CE02F9C" Type="Standard"    Name="SharePoint Server 2013 Standard" />
+      <License Guid="B7D84C2B-0754-49E4-B7BE-7EE321DCE0A9" Type="Enterprise"  Name="SharePoint Server 2013 Enterprise" />
+      <License Guid="D6B57A0D-AE69-4A3E-B031-1F993EE52EDC" Type="WAC"         Name="Microsoft Office Web Apps Server 2013" />
+    </Licenses>
+  </SharePoint>
+</SPSD>
